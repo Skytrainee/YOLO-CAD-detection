@@ -1,0 +1,41 @@
+# IDE and OS files
+.idea/
+.vscode/
+__pycache__/
+*.py[cod]
+.DS_Store
+Thumbs.db
+
+# Python environments
+.venv/
+venv/
+env/
+
+# Experiment outputs
+runs/
+output/
+results/
+*.log
+
+# Model weights and exported artifacts
+*.pt
+*.pth
+*.onnx
+*.engine
+*.torchscript
+
+# Datasets and large local assets
+data/
+datasets/
+images/
+labels/
+Annotations/
+
+# Notebook and cache files
+.ipynb_checkpoints/
+.pytest_cache/
+.mypy_cache/
+
+# Local secrets
+.env
+.env.*
